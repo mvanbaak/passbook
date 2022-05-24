@@ -1,10 +1,15 @@
-# FORK: Use Cryptography instead of M2Crypto
-This fork is updated to use the cryptography library for easy install on windows. In addition, m2crypto seems to be unmaintained.
+# FORK: Use Cryptography instead of M2Crypto, and other updates
+This fork is updated to use the cryptography library for easy install on windows.
+In addition, m2crypto seems to be unmaintained.
+
+It also holds other small changes. See the commit history on the `mvanbaak` branch for a full list.
+
+Cryptography switch taken from https://github.com/devartis/passbook/pull/60 by https://github.com/shivaRamdeen THANKS
 
 ## Installing this fork
 You can install this fork like this:
 ```
-pip install git+https://github.com/shivaRamdeen/passbook.git
+pip install git+https://github.com/mvanbaak/passbook.git
 ```
 
 # Passbook
